@@ -1,0 +1,10 @@
+#!/bin/bash
+
+wp1=$(find ~/dotfile/wallpapers/wallpapers/)
+wp2=$(find ~/dotfile/wallpapers/wallpapers1/)
+
+wp="$wp1$wp2"
+
+set_wp=$(fzf --preview "kitten icat {}" <<<$wp)
+
+swww img $set_wp
