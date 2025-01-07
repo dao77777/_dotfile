@@ -1,3 +1,4 @@
 #!/bin/bash
 
+mkdir -p ~/.ssh
 ln -sf ~/_dotfile/ssh/config ~/.ssh/config

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./ssh/init
+./hypr/init
+./kitty/init
+./wofi/init
