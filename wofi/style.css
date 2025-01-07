@@ -1,0 +1,35 @@
+* {
+	border-radius: 3px;
+	border: none;
+}
+
+window {
+	font-size: 18px;
+	font-family: "CaskaydiaCove Code";
+	background-color: rgba(50, 50, 50, 0.9);
+	color: white;
+	border: 3px solid white;
+}
+
+#entry {
+	padding: 0.5em;
+}
+
+#entry:selected {
+	background-color: #bbccdd;
+	background: linear-gradient(90deg, #ddeeff, #ffddee);
+}
+
+#text:selected {
+	color: #333333;
+}
+
+#input {
+	background-color: rgba(50, 50, 50, 0.5);
+	color: white;
+	padding: 0.5em;
+}
+
+image {
+	margin: 0 0.5em;
+}
