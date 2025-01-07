@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ln -sf ~/_dotfile/ssh/config ~/.ssh/config

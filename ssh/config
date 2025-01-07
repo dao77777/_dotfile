@@ -1,9 +1,9 @@
-Host archlinux
+Host oldschool-arch
     HostName	172.29.114.217
     Port	22	
     User	dao77777
 
-Host fries
+Host fries-windows
     HostName	172.29.182.208
     Port	22
     User	dao77777
