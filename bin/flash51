@@ -1,8 +1,19 @@
 #!/bin/bash
 
-tmpdir=$(mktemp -d)
+include_dir=""
 
-sdcc $1 -o "$tmpdir/tmp.ihx"
+while getopts "I:" opt; do
+  case "$opt" in
+  I)
+    include_dir="$OPTARG"
+    ;;
+  \?) ;;
+  esac
+done
+
+echo "$include_dir"
+
+sdcc $1 -o "$tmpdir/tmp.ihx" -I "$include_dir"
 if [ $? -ne 0 ]; then
   rm -rf $tmpdir
   exit 1
