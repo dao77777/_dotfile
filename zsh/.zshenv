@@ -21,7 +21,7 @@ export EDITOR=nvim
 export VISUAL=nvim
 export PAGER=less
 export FILE_MANAGER=yazi
-export BROWSER=zen-browser
+export BROWSER=zen
 export MAIL=neomutt
 
 # other

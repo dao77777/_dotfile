@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p ~/Desktop ~/Documents ~/Downloads ~/Music ~/Pictures ~/Public ~/Templates ~/Videos
+mkdir -p ~/_backup ~/_code ~/_doc ~/_dotfile ~/_images ~/_isos ~/_secret ~/_tmp
