@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# conf
 ./ssh/init
 ./hypr/init
 ./kitty/init
@@ -7,3 +8,10 @@
 ./waybar/init
 ./nvim/init
 ./zsh/init
+./yazi/init
+
+# bin
+sudo ln -sf ~/_dotfile/bin/flash51 /bin/flash51
+
+# skel
+./skel
