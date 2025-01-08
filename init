@@ -4,3 +4,6 @@
 ./hypr/init
 ./kitty/init
 ./wofi/init
+./waybar/init
+./nvim/init
+./zsh/init

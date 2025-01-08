@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mkdir -p ~/.config/kitty
-ln -sf ~/_dotfile/kitty/kitty.conf ~/.config/kitty/kitty.conf
+rm -rf ~/.config/kitty
+ln -sf ~/_dotfile/kitty ~/.config/kitty

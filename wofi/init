@@ -1,6 +1,4 @@
 #!/bin/bash
 
-
-mkdir -p ~/.config/wofi
-ln -sf ~/_dotfile/wofi/config ~/.config/wofi/config
-ln -sf ~/_dotfile/wofi/style.css ~/.config/wofi/style.css
+rm -rf ~/.config/wofi
+ln -sf ~/_dotfile/wofi ~/.config/wofi

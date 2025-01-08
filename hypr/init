@@ -1,6 +1,4 @@
 #!/bin/bash
 
-mkdir -p ~/.config/hypr
-ln -sf ~/_dotfile/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
-ln -sf ~/_dotfile/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
-ln -sf ~/_dotfile/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
+rm -rf ~/.config/hypr
+ln -sf ~/_dotfile/hypr ~/.config/hypr
