@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p ~/.config/waybar
+ln -sf ~/_dotfile/waybar/config ~/.config/waybar/config
+ln -sf ~/_dotfile/waybar/style.css ~/.config/waybar/style.css
+ln -sf ~/_dotfile/waybar/modules ~/.config/waybar/modules
