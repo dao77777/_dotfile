@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf ~/.config/fcitx5
+ln -sf ~/_dotfile/fcitx5 ~/.config/fcitx5
