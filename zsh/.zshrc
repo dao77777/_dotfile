@@ -84,5 +84,13 @@ eval "$(zoxide init zsh)"
 # nvm init
 source /usr/share/nvm/init-nvm.sh
 
+# bun completions
+[ -s "/home/dao77777/.bun/_bun" ] && source "/home/dao77777/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 # welcome
 pfetch
+
