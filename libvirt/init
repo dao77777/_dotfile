@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf ~/.config/libvirt
+ln -sf ~/_dotfile/libvirt ~/.config/libvirt

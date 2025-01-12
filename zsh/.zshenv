@@ -22,7 +22,7 @@ export VISUAL=nvim
 export PAGER=less
 export FILE_MANAGER=yazi
 export BROWSER=zen
-export MAIL=neomutt
+export MAIL=thunderbird
 
 # other
 # export XMODIFIERS="@im=fcitx"
