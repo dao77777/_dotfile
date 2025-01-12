@@ -9,7 +9,7 @@
 ./nvim/init
 ./zsh/init
 ./yazi/init
-./fcitx/init
+./fcitx5/init
 
 # bin
 sudo ln -sf ~/_dotfile/bin/flash51 /bin/flash51
