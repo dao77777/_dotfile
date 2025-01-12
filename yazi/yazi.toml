@@ -1,18 +1,3 @@
 [manager]
 ratio = [1, 3, 4]
 linemode = "size"
-
-[preview]
-max_width = 1200
-max_height = 1800
-prepend_previewers = [
-	{ name = "*/", run = "eza-preview" },
-]
-
-[opener]
-play = [
-	{ run = 'mpv --force-window "$@"', orphan = true, for = "unix" },
-	{ run = 'mpv --force-window %*', orphan = true, for = "windows" },
-  { run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
-]
-

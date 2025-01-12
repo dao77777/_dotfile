@@ -16,3 +16,8 @@ sudo ln -sf ~/_dotfile/bin/flash51 /bin/flash51
 
 # skel
 ./skel
+
+# variable
+
+ln -sf ~/_dotfile/wallpapers/wallpapers/Manga-Girl-Rain.png ~/.current_wallpaper
+ln -sf ~/_dotfile/avatar.png ~/.current_avatar

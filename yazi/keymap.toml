@@ -1,4 +1,0 @@
-[manager]
-apend_keymap = [
-	{ on = [ "E" ], run = "plugin eza-preview",  desc = "Toggle tree/list dir preview" },
-]
