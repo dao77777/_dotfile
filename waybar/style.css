@@ -90,6 +90,10 @@ button:hover {
     background-color: #b16286;
 }
 
+#disk,
+#cpu,
+#memory,
+#temperature,
 #idle_inhibitor,
 #cava,
 #scratchpad,
@@ -101,6 +105,7 @@ button:hover {
 #pulseaudio,
 #tray,
 #mpris,
+#network,
 #load {
     padding: 0 10px;
     background-color: #282828;

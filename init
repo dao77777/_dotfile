@@ -10,9 +10,12 @@
 ./zsh/init
 ./yazi/init
 ./fcitx5/init
+./libvirt/init
+./grub/init
 
 # bin
 sudo ln -sf ~/_dotfile/bin/flash51 /bin/flash51
+sudo ln -sf ~/_dotfile/bin/gen-login-ascii /bin/gen-login-ascii
 
 # skel
 ./skel

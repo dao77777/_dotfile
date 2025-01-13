@@ -2,3 +2,4 @@
 
 ln -sf ~/_dotfile/zsh/.zshrc ~/.zshrc
 ln -sf ~/_dotfile/zsh/.zshenv ~/.zshenv
+ln -sf ~/_dotfile/zsh/.zprofile ~/.zprofile
