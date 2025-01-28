@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf ~/.config/btop
+ln -sf ~/_dotfile/btop ~/.config/btop

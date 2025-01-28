@@ -12,6 +12,7 @@
 ./fcitx5/init
 ./libvirt/init
 ./grub/init
+./btop/init
 
 # bin
 sudo ln -sf ~/_dotfile/bin/flash51 /bin/flash51

@@ -25,6 +25,6 @@ export BROWSER=zen
 export MAIL=thunderbird
 
 # other
-# export XMODIFIERS="@im=fcitx"
+export XMODIFIERS="@im=fcitx"
 # export GTK_IM_MODULE="fcitx"
-# export QT_IM_MODULE="fcitx"
+export QT_IM_MODULE="fcitx"
