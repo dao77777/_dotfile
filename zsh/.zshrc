@@ -36,6 +36,9 @@ zinit light Aloxaf/fzf-tab
 #################################Custom#########################################
 
 # alias
+alias sd='sudo '
+alias sde='sudo -E '
+
 alias l='lsd -F'
 alias ll='lsd -Flh'
 alias la='lsd -Fa'
@@ -74,12 +77,16 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+alias sdy='sudo yazi'
+alias sdey='sudo -E yazi'
 
 # fzf init
 eval "$(fzf --zsh)"
 
 # zoxide init
 eval "$(zoxide init zsh)"
+alias sdz='sudo zoxide'
+alias sdez='sudo -E zoxide'
 
 # nvm init
 source /usr/share/nvm/init-nvm.sh
