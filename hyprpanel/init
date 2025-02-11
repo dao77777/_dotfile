@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf ~/.config/hyprpanel
+ln -sf ~/_dotfile/hyprpanel ~/.config/hyprpanel

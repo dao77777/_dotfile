@@ -13,6 +13,7 @@
 ./libvirt/init
 ./grub/init
 ./btop/init
+./hyprpanel/init
 
 # bin
 sudo ln -sf ~/_dotfile/bin/flash51 /bin/flash51
